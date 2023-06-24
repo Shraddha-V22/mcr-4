@@ -6,7 +6,7 @@ import SortFilter from "../components/SortFilter";
 export default function Home() {
   const { forum, sortedPosts } = useForum();
   return (
-    <div className="flex justify-between">
+    <div className="">
       <section className="flex flex-col gap-4">
         <h1 className="text-xl font-semibold">
           {forum.sortBy === "latest" ? "Latest Posts" : "Top Posts"}
@@ -15,10 +15,6 @@ export default function Home() {
           <PostCard key={post.id} postData={post} />
         ))}
       </section>
-      <div className="flex flex-col gap-4">
-        <h1 className="text-xl font-semibold">Sort By</h1>
-        <SortFilter />
-      </div>
     </div>
   );
 }

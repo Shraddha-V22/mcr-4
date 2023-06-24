@@ -7,7 +7,6 @@ import { faComment } from "@fortawesome/free-regular-svg-icons";
 export default function CommentComp({ commentData, replyingTo }) {
   const { commentId, username, picUrl, likes, comment, createdAt } =
     commentData;
-  console.log(commentData);
 
   return (
     <section className="flex gap-2 bg-white p-4">

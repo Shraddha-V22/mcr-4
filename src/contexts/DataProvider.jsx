@@ -30,8 +30,6 @@ export default function DataProvider({ children }) {
     return sortedData;
   }, [forum]);
 
-  console.log(sortedPosts);
-
   return (
     <ForumContext.Provider value={{ forum, sortedPosts, dispatch }}>
       {children}
