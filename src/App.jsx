@@ -11,7 +11,7 @@ function App() {
 
   console.log(location);
   return (
-    <section className="flex min-h-[100vh] w-[100vw] flex-col bg-gray-100">
+    <section className="flex min-h-[100vh] w-full flex-col bg-gray-100">
       <Header />
       <section className="mx-auto flex w-[80%] flex-grow justify-between py-4">
         <aside>
