@@ -68,7 +68,7 @@ export default function PostCard({ postData }) {
             <Tag tag={tag} />
           ))}
         </div>
-        <p className="leading-5">{postDescription}</p>
+        <p className="py-2 leading-5">{postDescription}</p>
         <div className="flex w-full justify-between border-t border-black p-2">
           <button>
             <FontAwesomeIcon icon={faComment} />
