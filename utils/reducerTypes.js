@@ -1,0 +1,6 @@
+export const POST = {
+  UPVOTE: "UPVOTE",
+  DOWNVOTE: "DOWNVOTE",
+  BOOKMARK: "BOOKMARK",
+  SORT_POSTS: "SORT_POSTS",
+};
